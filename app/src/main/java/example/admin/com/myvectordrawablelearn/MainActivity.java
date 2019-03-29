@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawable;
+//    private AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawable;
     private ImageView imageView;
 
     @Override
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = findViewById(R.id.imageView);
-        mightyMorphinAnimatedVectorDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.animate_path);
+//        mightyMorphinAnimatedVectorDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.animate_path);
 
         final ImageView imageView_tick = (ImageView)findViewById(R.id.img_tick);
         ((Animatable) imageView_tick.getDrawable()).start();

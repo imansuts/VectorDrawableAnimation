@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyVectorDrawableLearn</string>
+    <string name="app_name">VectorDrawableAnimation</string>
     <string name="title_activity_main2">Main2Activity</string>
 
     <string name="circle_data">M 125 250 C 137.5 83.34 362.5 83.34 375 250 M 125 250 C 137.5 416.66 362.5 416.66 375 250</string>
