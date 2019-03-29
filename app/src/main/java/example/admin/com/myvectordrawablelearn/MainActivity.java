@@ -1,10 +1,9 @@
-package vcx.admin.com.myvectordrawablelearn;
+package example.admin.com.myvectordrawablelearn;
 
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;

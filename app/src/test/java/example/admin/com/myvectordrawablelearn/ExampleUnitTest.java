@@ -1,4 +1,4 @@
-package vcx.admin.com.myvectordrawablelearn;
+package example.admin.com.myvectordrawablelearn;
 
 import org.junit.Test;
 
