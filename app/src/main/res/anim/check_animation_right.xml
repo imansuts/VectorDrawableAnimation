@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Step 1 -->
+    <objectAnimator
+        android:propertyName="pathData"
+        android:shareInterpolator="true"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:startOffset="1500"
+        android:valueFrom="M12,12 h0"
+        android:valueTo="M12,12 h4.5"
+        android:valueType="pathType" />
+    <!-- Step 2 -->
+    <!--<objectAnimator
+        android:duration="@android:integer/config_shortAnimTime"
+        android:propertyName="pathData"
+        android:valueFrom="M13,11 l0,0"
+        android:valueTo="M13,11 l13,40"
+        android:valueType="pathType" />-->
+</set>

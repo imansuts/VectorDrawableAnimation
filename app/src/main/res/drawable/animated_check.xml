@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/check_mark">
+    <target
+        android:name="circle"
+        android:animation="@anim/check_animation_circle" />
+    <target
+        android:name="letter_a_left"
+        android:animation="@anim/check_animation_a_left_side" />
+    <target
+        android:name="letter_a_right"
+        android:animation="@anim/check_animation_a_right_side" />
+    <target
+        android:name="upper_line_left"
+        android:animation="@anim/check_animation_left" />
+    <target
+        android:name="upper_line_right"
+        android:animation="@anim/check_animation_right" />
+    <target
+        android:name="middle_line"
+        android:animation="@anim/check_animation_middle" />
+</animated-vector>

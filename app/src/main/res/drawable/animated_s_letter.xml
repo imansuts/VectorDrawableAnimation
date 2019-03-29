@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/path_for_s_letter">
+    <target
+        android:name="first_name"
+        android:animation="@anim/animator_for_s_letter" />
+
+</animated-vector>

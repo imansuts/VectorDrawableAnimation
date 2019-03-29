@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Step 1 -->
+
+    <objectAnimator
+        android:duration="1200"
+        android:propertyName="trimPathStart"
+        android:valueFrom="1.00"
+        android:valueTo="0.0"
+        android:valueType="floatType"
+        android:interpolator="@android:anim/linear_interpolator">
+    </objectAnimator>
+
+    <!--<objectAnimator
+        android:propertyName="pathData"
+        android:valueFrom="M10,07 h0"
+        android:shareInterpolator="true"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:valueTo="M10,07 h-6.5"
+        android:valueType="pathType" />-->
+
+</set>

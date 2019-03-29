@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="153dp"
+    android:height="358dp"
+    android:viewportHeight="375"
+    android:viewportWidth="153">
+
+    <group android:name="surname">
+        <path
+            android:pathData="M120 125 A30 30 0 1 1 120 40"
+            android:strokeColor="#ba2a2a"
+            android:strokeWidth="4" />
+    </group>
+</vector>

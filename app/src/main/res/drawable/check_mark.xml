@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0">
+    <group android:name="background">
+        <path
+            android:name="circle"
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeLineCap="square"
+            android:strokeLineJoin="miter"
+            android:strokeWidth="1"
+            android:pathData="M12,2C6.47,2 2,6.47 2,12s4.47,10 10,10 10,-4.47 10,-10
+            S17.53,2 12,2z"/>
+
+            <!--android:pathData="M12,2C6.47,2 2,6.47 2,12s4.47,10 10,10 10,-4.47 10,-10
+            S17.53,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8
+            s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z"/>-->
+        <!--<path
+            android:name="circle"
+            android:strokeColor="@color/colorPrimary"
+            android:fillColor="#00ffffff"
+            android:pathData="M12,12m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />-->
+    </group>
+    <group android:name="letter_a_grp_1">
+        <path
+            android:name="letter_a_left"
+            android:pathData="M12,2 l0,0"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeWidth="1" />
+    </group>
+    <group android:name="letter_a_grp_2">
+        <path
+            android:name="letter_a_right"
+            android:pathData="M12,2 l0,0"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeWidth="1" />
+    </group>
+    <group android:name="upper_left">
+        <path
+            android:name="upper_line_left"
+            android:pathData="M12,12 h0"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeWidth="1" />
+    </group>
+    <group android:name="upper_right">
+        <path
+            android:name="upper_line_right"
+            android:pathData="M12,12 h0"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeWidth="1" />
+    </group>
+    <group android:name="middle">
+        <path
+            android:name="middle_line"
+            android:pathData="M12,12 v0"
+            android:strokeColor="@color/colorPrimary"
+            android:strokeWidth="1" />
+    </group>
+
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Step 1 -->
+    <!--<objectAnimator
+        android:duration="@android:integer/config_shortAnimTime"
+        android:propertyName="pathData"
+        android:valueFrom="M6,11 l0,0"
+        android:valueTo="M6,11 l29,11"
+        android:valueType="pathType" />-->
+    <!-- Step 2 -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:valueFrom="M12,12 v0"
+        android:valueTo="M12,12 v10"
+        android:startOffset="1500"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:valueType="pathType" />
+</set>
